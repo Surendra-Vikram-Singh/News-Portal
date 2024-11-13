@@ -7,7 +7,7 @@ import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const pageSize = 5;
+  const pageSize = 3;
   const [progress, setProgress] = useState(0);
 
   return (
