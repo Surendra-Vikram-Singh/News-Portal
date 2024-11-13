@@ -31,7 +31,7 @@ export default class Navbar extends Component {
 
               <li className="nav-item">
                 <Link className="nav-link" to="/entertainment">
-                  Entertainment 
+                  Entertainment
                 </Link>
               </li>
 
@@ -49,7 +49,7 @@ export default class Navbar extends Component {
 
               <li className="nav-item">
                 <Link className="nav-link" to="/science">
-                  Science 
+                  Science
                 </Link>
               </li>
               <li className="nav-item">
@@ -63,7 +63,6 @@ export default class Navbar extends Component {
                   Technology
                 </Link>
               </li>
-
             </ul>
           </div>
         </nav>

@@ -16,59 +16,99 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path=""
-            element={<News key={Math.random()} category="general" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="general"
+              />
+            }
           />
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path="/business"
-            element={<News key={Math.random()} category="business" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="business"
+              />
+            }
           />
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path="/entertainment"
-            element={<News key={Math.random()} category="entertainment" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="entertainment"
+              />
+            }
           />
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path="/general"
-            element={<News key={Math.random()} category="general" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="general"
+              />
+            }
           />
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path="/health"
-            element={<News key={Math.random()} category="health" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="health"
+              />
+            }
           />
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path="/science"
-            element={<News key={Math.random()} category="science" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="science"
+              />
+            }
           />
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path="/sports"
-            element={<News key={Math.random()} category="sports" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="sports"
+              />
+            }
           />
           <Route
             exact
-            setProgress={setProgress}
-            pageSize={pageSize}
             path="/technology"
-            element={<News key={Math.random()} category="technology" />}
+            element={
+              <News
+                setProgress={setProgress}
+                pageSize={pageSize}
+                key={Math.random()}
+                category="technology"
+              />
+            }
           />
           <Route path="*" element={<NoPage />} />
         </Route>
